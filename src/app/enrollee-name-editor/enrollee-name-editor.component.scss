@@ -1,0 +1,14 @@
+.enrollee-editor {
+  &-loading {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  &-text {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 10px;
+    width: 89%;
+    margin: 0 0.5rem;
+  }
+}

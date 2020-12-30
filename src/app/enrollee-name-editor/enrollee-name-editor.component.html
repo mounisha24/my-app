@@ -1,0 +1,14 @@
+<div class="enrollee-editor">
+  <input
+    type="text"
+    [value]="value"
+    (keydown.enter)="changeName($event)"
+    class="enrollee-editor-text"
+    #inputElm
+  />
+  <img
+    *ngIf="loading"
+    src="./assets/img/dots.svg"
+    class="enrollee-editor-loading"
+  />
+</div>

@@ -1,0 +1,12 @@
+<ag-grid-angular
+    style="width: 100%; height: 80vh;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    (gridReady)="onGridReady($event)"
+    [getRowNodeId]="getRowNodeId"
+    [singleClickEdit]="true"
+    [frameworkComponents]="frameworkComponents"
+    [pagination]="true"
+>
+</ag-grid-angular>

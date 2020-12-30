@@ -1,0 +1,16 @@
+{
+    "body": [
+        {
+            "id": "one",
+            "active": true,
+            "name": "Astring",
+            "dateOfBirth": "string"
+        },
+        {
+            "id": "two",
+            "active": false,
+            "name": "Bstring",
+            "dateOfBirth": "string"
+        }
+    ]
+}

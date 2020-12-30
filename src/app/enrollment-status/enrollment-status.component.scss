@@ -1,0 +1,38 @@
+.enrollment-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+  &-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.disabled {
+        opacity: 0.5;
+        color: #333;
+    }
+  }
+  &-dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    &.active {
+      border: 1px solid#149209;
+      background-color:#149209;
+    }
+    &.inactive {
+      border: 1px solid #f00;
+      background-color: #f00;
+    }
+  }
+  &-loading {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

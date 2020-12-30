@@ -1,0 +1,20 @@
+<div class="enrollment-status">
+  <button
+    class="enrollment-status-btn"
+    [class.disabled]="loading"
+    (click)="changeStatus()"
+    [disabled]="loading"
+  >
+    <span
+      class="enrollment-status-dot"
+      [class.active]="value"
+      [class.inactive]="!value"
+    ></span>
+    <span>{{ value ? "Active" : "Inactive" }}</span>
+  </button>
+  <img
+    *ngIf="loading"
+    src="./assets/img/dots.svg"
+    class="enrollment-status-loading"
+  />
+</div>
